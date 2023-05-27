@@ -12,8 +12,11 @@ b = 3
 if a is b:
     print("a与b相等")
 else:
-    print(f'a的id是{id(a)}','b的id是{id(b)}')
+    print(f'a与b不相等，a的id是{id(a)},b的id是{id(b)}')
 #
 c = [1,2]
 d = [1,2]
-print(id(c),id(d))
+if c is d:
+    print("c与d相等")
+else:
+    print(f'c与d不相等,c的id是{id(c)},d的id是{id(d)}')
