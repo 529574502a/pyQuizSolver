@@ -3,7 +3,7 @@
 #try..except..finally不管是否捕获到异常，都执行finally语句
 try:
     num = 100
-    print(um)
+    print(num)
 except NameError as errorMsg:
     print('产生错误了:%s'%errorMsg)
 else:
